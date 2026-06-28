@@ -1,7 +1,7 @@
 "use strict";
 // Assignment: Values and Variables
-let country = "Bangladesh";
-let continent = "Asia";
+const country = "Bangladesh";
+const continent = "Asia";
 let population = "16 Million";
 console.log("Country Name:", country);
 console.log("Continent:", continent);
@@ -9,7 +9,7 @@ console.log("Continent:", continent);
 
 // Assignment: Data Types
 const isIsland = false;
-let language;
+let language = "Bengali";
 
 console.log(
   typeof country,
