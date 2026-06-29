@@ -166,6 +166,13 @@ const myCountry = {
   capital: "Dhaka",
   language: "Bengali",
   neighbors: ["India", "Srilanka", "United Kingdom", "Nepal"],
+  describe: function () {
+    let result = `${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbors.length} neighbouring countries and a capital called ${this.capital}`;
+    return result;
+  },
+  checkIsland: function () {
+    this.isIsland = this.neighbors.length === 0 ? true : false;
+  },
 };
 
 // Assignment: Dot vs. Bracket Notation
@@ -177,4 +184,10 @@ myCountry.population = myCountry.population + 2;
 console.log(myCountry);
 myCountry["population"] = myCountry["population"] - 10;
 console.log(myCountry);
-console.log(myCountry[country]);
+// console.log(myCountry[country]);
+
+// Assignment: Object Methods
+const as = myCountry.describe();
+console.log(as);
+myCountry.checkIsland();
+console.log(myCountry);
