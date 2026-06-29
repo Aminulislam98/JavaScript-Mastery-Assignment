@@ -507,3 +507,16 @@ const {
   },
 } = books[0];
 console.log(rating2);
+
+// Assignment: 2.6
+const printBookInfo = function ({ title, author, year = "unknown" }) {
+  return `${title} by ${author}, ${year}`;
+};
+console.log(
+  printBookInfo({
+    title: "Algorithms",
+    author: "Robert Sedgewick",
+    year: "2011",
+  }),
+);
+console.log(printBookInfo({ title: "Algorithms", author: "Robert Sedgewick" }));
