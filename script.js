@@ -104,3 +104,13 @@ switch (languageTest) {
 country > 30
   ? console.log(`${country}'s population is above average`)
   : console.log(`${country}'s population is below average`);
+
+console.log("------------- JavaScript Fundamentals — Part 2 ------------");
+
+function describeCountry(country, population, capitalCity) {
+  console.log(
+    `${country} has ${population} million people and its capital city is ${capitalCity}`,
+  );
+}
+
+// console.log(describeCountry("Bangladesh", 16, "Dhaka"));
