@@ -593,10 +593,6 @@ for (const { author } of books) {
 console.log(allAuthors);
 
 // Looping Arrays: The for-of Loop 8.3
-// const allAuthor = [];
-
-// for (const { author } of books) {
-//   const output = author.entries();
-// }
-// console.log(allAuthor);
-// console.log(authors);
+for (const [i, eachAuthor] of allAuthors.entries()) {
+  console.log(`${i + 1} ${eachAuthor}`);
+}
