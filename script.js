@@ -114,3 +114,10 @@ function describeCountry(country, population, capitalCity) {
 }
 
 // console.log(describeCountry("Bangladesh", 16, "Dhaka"));
+// Assignment: Function Declarations vs. Expressions
+function percentageOfWorld1(populationYourCountry) {
+  const worldPopulation = 7900;
+  return (populationYourCountry / worldPopulation) * 100;
+}
+const output = percentageOfWorld1(1441);
+console.log(output.toFixed(2), "%");
