@@ -71,3 +71,31 @@ if (language == "Bengali" && population < 50 && !isIsland) {
 } else {
   console.log(`${country} does not meet your criteria `);
 }
+
+// Assignment: The switch Statement
+
+let languageTest = "Mandarin".toLowerCase();
+
+switch (languageTest) {
+  case "Bangladesh".toLowerCase():
+    console.log("One of the nice language ever!");
+    break;
+  case "Chinese".toLowerCase():
+  case "Mandarin".toLowerCase():
+    console.log("MOST number of native speakers!");
+    break;
+  case "Spanish".toLowerCase():
+    console.log("2nd place of number of native speakers.");
+    break;
+  case "English".toLowerCase():
+    console.log("3rd Place.");
+    break;
+  case "Hindi".toLowerCase():
+    console.log("Number 4");
+    break;
+  case "Arabic".toLowerCase():
+    console.log("5th most spoken language");
+    break;
+  default:
+    console.log("Grate Language too :D");
+}
