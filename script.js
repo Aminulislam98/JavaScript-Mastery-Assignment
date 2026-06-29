@@ -557,3 +557,10 @@ console.log(hasExamplesInJava(books[1]));
 for (const { title, onlineContent } of books) {
   onlineContent && console.log(`${title} provides online content`);
 }
+
+// The Nullish Coalescing Operator (??) 6.1
+
+for (const { title, onlineContent } of books) {
+  onlineContent ??
+    console.log(`${title} provides no data about its online content`);
+}
