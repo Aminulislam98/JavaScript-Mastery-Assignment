@@ -462,3 +462,8 @@ const books = [
 // assignment: 1.1
 const [first, second] = books;
 console.table(first, second);
+
+// assignment: 1.2
+const [, , third] = books;
+
+console.log(third);
