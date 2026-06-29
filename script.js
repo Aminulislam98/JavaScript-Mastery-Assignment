@@ -204,3 +204,21 @@ for (let i = 0; i < populations.length; i++) {
   percentages2.push(prr);
 }
 console.log(percentages2);
+
+// Assignment: Looping Backwards and Loops in Loops
+const listOfNeighbors = [
+  ["Canada", "Mexico"],
+  ["Spain"],
+  ["Norway", "Sweden", "Russia"],
+];
+
+for (let i = 0; i < listOfNeighbors.length; i++) {
+  const firstN = listOfNeighbors[i];
+  if (firstN.length > 1) {
+    for (let fi = 0; fi < firstN.length; fi++) {
+      console.log(`Neighbor: ${firstN[fi]}`);
+    }
+  } else {
+    console.log(`Neighbor: ${listOfNeighbors[i]}`);
+  }
+}
