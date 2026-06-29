@@ -499,3 +499,11 @@ let bookAuthor = "unknown";
 ({ title: bookTitle, author: bookAuthor } = books[0]);
 
 console.log(bookTitle, bookAuthor);
+
+// Assignment: 2.5
+const {
+  thirdParty: {
+    goodreads: { rating: rating2 },
+  },
+} = books[0];
+console.log(rating2);
