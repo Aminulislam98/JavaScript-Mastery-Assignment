@@ -196,3 +196,11 @@ console.log(myCountry);
 for (let i = 1; i <= 50; i++) {
   console.log(`Voter number ${i} is currently voting....`);
 }
+
+// Assignment: Looping Arrays, Breaking and Continuing
+const percentages2 = [];
+for (let i = 0; i < populations.length; i++) {
+  const prr = percentageOfWorld1(populations[i]);
+  percentages2.push(prr);
+}
+console.log(percentages2);
