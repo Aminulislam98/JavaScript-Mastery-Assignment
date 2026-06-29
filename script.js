@@ -483,3 +483,7 @@ console.log(fiveStarRatings, oneStarRatings, threeStarRating);
 // Assignment: 2.1
 const { title, author, ISBN } = first;
 console.log(title, author, ISBN);
+
+// Assignment: 2.2
+const tags = first.keywords;
+console.log(tags);
