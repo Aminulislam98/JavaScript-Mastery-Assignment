@@ -572,9 +572,31 @@ for (const [i, book] of books.entries()) {
 console.log(books[5].edition);
 console.log(books[6].edition);
 
-// Assignment Logical Assignments Operators 7.2
+// Looping Arrays: The for-of Loop 8.1
 let pageSum = 0;
 for (const { pages } of books) {
   pageSum += pages;
 }
 console.log(pageSum);
+
+// Looping Arrays: The for-of Loop 8.2
+const allAuthors = [];
+for (const { author } of books) {
+  if (typeof author !== "string") {
+    for (const eachAuthor of author) {
+      allAuthors.push(eachAuthor);
+    }
+  } else {
+    allAuthors.push(author);
+  }
+}
+console.log(allAuthors);
+
+// Looping Arrays: The for-of Loop 8.3
+// const allAuthor = [];
+
+// for (const { author } of books) {
+//   const output = author.entries();
+// }
+// console.log(allAuthor);
+// console.log(authors);
