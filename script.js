@@ -564,3 +564,17 @@ for (const { title, onlineContent } of books) {
   onlineContent ??
     console.log(`${title} provides no data about its online content`);
 }
+
+// Assignment Logical Assignments Operators 7.1
+for (const [i, book] of books.entries()) {
+  book.edition ??= 1;
+}
+console.log(books[5].edition);
+console.log(books[6].edition);
+
+// Assignment Logical Assignments Operators 7.2
+let pageSum = 0;
+for (const { pages } of books) {
+  pageSum += pages;
+}
+console.log(pageSum);
