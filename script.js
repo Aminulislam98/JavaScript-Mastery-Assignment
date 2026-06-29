@@ -525,3 +525,10 @@ console.log(printBookInfo({ title: "Algorithms", author: newLocal }));
 // Assignment: 3.1
 const booksAuthors = [...first.author, ...second.author];
 console.log(booksAuthors);
+
+// The Spread Operator 3.2
+const spellWord = function (str) {
+  console.log(...str);
+};
+
+spellWord("JavaScript");
