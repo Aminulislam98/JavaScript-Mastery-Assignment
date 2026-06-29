@@ -543,3 +543,11 @@ const printBookAuthorsCount = function (title, ...authors) {
 };
 
 printBookAuthorsCount("Algorithms", "Robert Sedgewick", "Kevin Wayne");
+
+// Assignment: Rest Pattern and Parameters 5.1
+const hasExamplesInJava = function (book) {
+  return book.programmingLanguage === "Java" || "No data available";
+};
+
+console.log(hasExamplesInJava(books[0]));
+console.log(hasExamplesInJava(books[1]));
