@@ -461,7 +461,7 @@ const books = [
 
 // assignment: 1.1
 const [first, second] = books;
-console.table(first, second);
+console.log(first, second);
 
 // assignment: 1.2
 const [, , third] = books;
@@ -479,3 +479,7 @@ console.log(rating, ratingsCount);
 const ratingStars = [63405, 1808];
 const [fiveStarRatings, oneStarRatings, threeStarRating = 0] = ratingStars;
 console.log(fiveStarRatings, oneStarRatings, threeStarRating);
+
+// Assignment: 2.1
+const { title, author, ISBN } = first;
+console.log(title, author, ISBN);
