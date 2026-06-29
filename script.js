@@ -621,6 +621,16 @@ const newBook2 = {
 
 // Assignment: Optional Chaining (?.) 10.1
 const getFirstKeyword = function (book) {
-  console.log(book?.keywords?.[0]);
+  // console.log(book?.keywords?.[0]);
 };
 getFirstKeyword(books[10]);
+
+// Assignment: Looping Objects: Object Keys, Values and Entries 11.1
+const entries = [];
+
+console.log("__________________________AB_________________________");
+
+for (const b of Object.keys(books[0].thirdParty.goodreads)) {
+  entries.push([b]);
+}
+console.log(entries);
