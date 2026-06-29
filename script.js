@@ -474,3 +474,8 @@ const ratings = [
 ];
 const [rating, ratingsCount] = ratings;
 console.log(rating, ratingsCount);
+
+// assignment: 1.4
+const ratingStars = [63405, 1808];
+const [fiveStarRatings, oneStarRatings, threeStarRating = 0] = ratingStars;
+console.log(fiveStarRatings, oneStarRatings, threeStarRating);
