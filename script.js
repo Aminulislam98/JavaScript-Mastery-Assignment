@@ -487,3 +487,7 @@ console.log(title, author, ISBN);
 // Assignment: 2.2
 const tags = first.keywords;
 console.log(tags);
+
+// Assignment: 2.3
+const { language: language1, programmingLanguage = "unknown" } = books[6];
+console.log(language1, programmingLanguage);
