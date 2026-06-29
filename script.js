@@ -465,5 +465,12 @@ console.table(first, second);
 
 // assignment: 1.2
 const [, , third] = books;
-
 console.log(third);
+
+// assignment: 1.3
+const ratings = [
+  ["rating", 4.19],
+  ["ratingsCount", 144584],
+];
+const [rating, ratingsCount] = ratings;
+console.log(rating, ratingsCount);
