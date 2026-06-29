@@ -609,3 +609,12 @@ const newBook = {
   [bookData[2][0]]: bookData[2][1],
 };
 console.log(newBook);
+
+// Assignment: Enhanced Object Literals 9.2
+const pages = 880;
+
+const newBook2 = {
+  title: "The C Programming Language",
+  author: ["Brian W. Kernighan", "Dennis M. Ritchie"],
+  pages,
+};
