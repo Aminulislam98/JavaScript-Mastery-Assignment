@@ -491,3 +491,11 @@ console.log(tags);
 // Assignment: 2.3
 const { language: language1, programmingLanguage = "unknown" } = books[6];
 console.log(language1, programmingLanguage);
+
+// Assignment: 2.4
+let bookTitle = "unknown";
+let bookAuthor = "unknown";
+
+({ title: bookTitle, author: bookAuthor } = books[0]);
+
+console.log(bookTitle, bookAuthor);
