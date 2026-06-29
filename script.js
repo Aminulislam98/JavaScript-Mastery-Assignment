@@ -126,3 +126,10 @@ console.log(output.toFixed(2));
 const percentageOfWorld3 = (pYc) => (pYc / 7900) * 100;
 const output1 = percentageOfWorld3(1441);
 console.log(output1.toFixed(2));
+
+// Assignment: Functions Calling Other Functions
+function describePopulation(country1, population2) {
+  const calPopulation = percentageOfWorld3(population2);
+  return `${country1} has ${population2} Million people, which is about ${calPopulation.toFixed(2)} of the world`;
+}
+console.log(describePopulation("Bangladesh", 16));
