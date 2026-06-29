@@ -536,3 +536,10 @@ spellWord("JavaScript");
 // Assignment: Rest Pattern and Parameters 4.1
 const [mainKeyword, ...rest] = books[0].keywords;
 console.log(mainKeyword, rest);
+
+// Assignment: Rest Pattern and Parameters 4.3
+const printBookAuthorsCount = function (title, ...authors) {
+  console.log(`The book "${title}" has ${authors.length} authors`);
+};
+
+printBookAuthorsCount("Algorithms", "Robert Sedgewick", "Kevin Wayne");
