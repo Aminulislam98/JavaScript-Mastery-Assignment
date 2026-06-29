@@ -133,3 +133,17 @@ function describePopulation(country1, population2) {
   return `${country1} has ${population2} Million people, which is about ${calPopulation.toFixed(2)} of the world`;
 }
 console.log(describePopulation("Bangladesh", 16));
+
+// Assignment: Introduction to Arrays
+const populations = [16, 32, 23, 45];
+if (populations.length === 4) {
+  console.log("Yes the length is", populations.length);
+}
+
+const percentages = [
+  percentageOfWorld1(populations[0]),
+  percentageOfWorld1(populations[1]),
+  percentageOfWorld1(populations[2]),
+  percentageOfWorld1(populations[3]),
+];
+console.log(percentages);
