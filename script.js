@@ -54,13 +54,20 @@ if (population > averagePopulation) {
 }
 
 // Assignment Equality Operators: == vs. ===
-const numNeighbor =
-  Number();
-  // prompt("How many neighbor countries does your country have ?"),
+const numNeighbor = Number();
+// prompt("How many neighbor countries does your country have ?"),
 if (numNeighbor == 1) {
   console.log("Only 1 border!");
 } else if (numNeighbor > 1) {
   console.log("More than one border.");
 } else {
   console.log("No borders");
+}
+
+// Assignment: Logical Operators
+
+if (language == "Bengali" && population < 50 && !isIsland) {
+  console.log(`You should live in ${country} :)`);
+} else {
+  console.log(`${country} does not meet your criteria `);
 }
