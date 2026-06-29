@@ -618,3 +618,9 @@ const newBook2 = {
   author: ["Brian W. Kernighan", "Dennis M. Ritchie"],
   pages,
 };
+
+// Assignment: Optional Chaining (?.) 10.1
+const getFirstKeyword = function (book) {
+  console.log(book?.keywords?.[0]);
+};
+getFirstKeyword(books[10]);
