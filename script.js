@@ -551,3 +551,9 @@ const hasExamplesInJava = function (book) {
 
 console.log(hasExamplesInJava(books[0]));
 console.log(hasExamplesInJava(books[1]));
+
+// Assignment: Rest Pattern and Parameters 5.2
+
+for (const { title, onlineContent } of books) {
+  onlineContent && console.log(`${title} provides online content`);
+}
