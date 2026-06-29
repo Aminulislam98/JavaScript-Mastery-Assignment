@@ -120,4 +120,9 @@ function percentageOfWorld1(populationYourCountry) {
   return (populationYourCountry / worldPopulation) * 100;
 }
 const output = percentageOfWorld1(1441);
-console.log(output.toFixed(2), "%");
+console.log(output.toFixed(2));
+
+// Assignment: Arrow Functions
+const percentageOfWorld3 = (pYc) => (pYc / 7900) * 100;
+const output1 = percentageOfWorld3(1441);
+console.log(output1.toFixed(2));
