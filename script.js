@@ -99,3 +99,8 @@ switch (languageTest) {
   default:
     console.log("Grate Language too :D");
 }
+
+// Assignment: The Conditional (Ternary) Operator
+country > 30
+  ? console.log(`${country}'s population is above average`)
+  : console.log(`${country}'s population is below average`);
