@@ -43,3 +43,12 @@ averagePopulation > population ? console.log("No") : console.log("Yes");
 
 const summeryMyCountry = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(summeryMyCountry);
+
+// Taking Decisions: if / else Statements;
+if (population > averagePopulation) {
+  console.log(`${country}'s population is above average`);
+} else {
+  console.log(
+    `${country}'s population is ${averagePopulation - population} million below average`,
+  );
+}
