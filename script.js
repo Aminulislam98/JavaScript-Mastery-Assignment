@@ -532,3 +532,7 @@ const spellWord = function (str) {
 };
 
 spellWord("JavaScript");
+
+// Assignment: Rest Pattern and Parameters 4.1
+const [mainKeyword, ...rest] = books[0].keywords;
+console.log(mainKeyword, rest);
