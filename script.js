@@ -519,4 +519,9 @@ console.log(
     year: "2011",
   }),
 );
-console.log(printBookInfo({ title: "Algorithms", author: "Robert Sedgewick" }));
+const newLocal = "Robert Sedgewick";
+console.log(printBookInfo({ title: "Algorithms", author: newLocal }));
+
+// Assignment: 3.1
+const booksAuthors = [...first.author, ...second.author];
+console.log(booksAuthors);
