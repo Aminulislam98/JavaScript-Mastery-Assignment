@@ -678,3 +678,7 @@ console.log(uniqueKeywords);
 // Assignment: Looping Objects: Object Keys, Values and Entries 12.5
 const uniqueKeywordsArr = [...uniqueKeywords];
 console.log(uniqueKeywordsArr);
+
+// Assignment: Looping Objects: Object Keys, Values and Entries 12.6
+uniqueKeywords.clear();
+console.log(uniqueKeywords);
