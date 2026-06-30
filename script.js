@@ -723,3 +723,8 @@ console.log(books[0].ISBN[6]);
 console.log(books[0].ISBN[4]);
 console.log(books[0].ISBN[9]);
 console.log(books[0].ISBN[8]);
+
+// Assignment: Working with Strings - Part 1: 15.2
+const quote =
+  "A computer once beat me at chess, but it was no match for me at kick boxing";
+console.log(quote.indexOf("chess"));
