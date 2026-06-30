@@ -643,5 +643,21 @@ for (const [index, value] of Object.entries(
 }
 console.log(entries);
 
-//  Assignment: Looping Objects: Object Keys, Values and Entries 11.3
+//  Assignment: Looping Objects: Object Keys, Values and Entries 12.1
 const entries2 = Object.entries(books[0].thirdParty.goodreads);
+
+// Assignment: sets 12.1
+// const allKeywords = [];
+// for (const { keywords } of books) {
+//   for (const keyword of keywords) {
+//     console.log(keyword);
+//     allKeywords.push(keyword);
+//   }
+// }
+// console.log(allKeywords);
+
+const allKeywords = [];
+for (const book of books) {
+  allKeywords.push(...book.keywords);
+}
+console.log(allKeywords);
