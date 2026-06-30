@@ -763,3 +763,5 @@ const normalizeAuthorName = function (authorName) {
   return capitalizedFirstName + " " + capitalizedLastName;
 };
 console.log(normalizeAuthorName("  JuliE sussMan (Contributor)"));
+
+// Assignment: Working with Strings - Part 2: 16.2
