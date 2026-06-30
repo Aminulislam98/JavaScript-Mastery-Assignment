@@ -661,3 +661,6 @@ for (const book of books) {
   allKeywords.push(...book.keywords);
 }
 console.log(allKeywords);
+
+// Assignment: Looping Objects: Object Keys, Values and Entries 12.2
+const uniqueKeywords = new Set(allKeywords);
