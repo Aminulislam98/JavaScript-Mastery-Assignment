@@ -697,3 +697,6 @@ console.log(bookMap);
 // Assignment: Maps: Fundamentals 13.3
 
 console.log(bookMap.get("title"), "by", bookMap.get("author"));
+
+// Assignment: Maps: Fundamentals 13.4
+console.log(bookMap.size);
