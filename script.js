@@ -742,3 +742,24 @@ const isContributor = function (authorName) {
 };
 console.log(isContributor("Julie Sussman (Contributor)"));
 console.log(isContributor("Robert Sedgewick"));
+
+// Assignment: Working with Strings - Part 2: 16.1
+const normalizeAuthorName = function (authorName) {
+  authorName = authorName.trim();
+  const firstName = authorName.slice(0, authorName.indexOf(" "));
+  let lastName = "";
+  if (authorName.indexOf(" ") === authorName.lastIndexOf(" ")) {
+    lastName = authorName.slice(authorName.indexOf(" ") + 1, authorName.length);
+  } else {
+    lastName = authorName.slice(
+      authorName.indexOf(" ") + 1,
+      authorName.lastIndexOf(" "),
+    );
+  }
+  const capitalizedFirstName =
+    firstName[0].toUpperCase() + firstName.slice(1).toLowerCase();
+  const capitalizedLastName =
+    lastName[0].toUpperCase() + lastName.slice(1).toLowerCase();
+  return capitalizedFirstName + " " + capitalizedLastName;
+};
+console.log(normalizeAuthorName("  JuliE sussMan (Contributor)"));
