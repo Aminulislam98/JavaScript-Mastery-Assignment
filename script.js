@@ -706,3 +706,7 @@ console.log(bookMap.size);
 if (bookMap.has("author")) {
   console.log("The author of the book is known");
 }
+
+// Maps: Iteration 14.1
+const firstBookMap = new Map(Object.entries(books[0]));
+console.log(firstBookMap);
