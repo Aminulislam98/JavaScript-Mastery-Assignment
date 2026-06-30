@@ -809,3 +809,21 @@ const getKeywordsAsString = function (books) {
   return uniqueKeywords.join(";");
 };
 getKeywordsAsString(books);
+
+// Assignment: Working with Strings - Part 3 17.3
+
+const bookChapters = [
+  ["The Basics", 14],
+  ["Sorting", 254],
+  ["Searching", 372],
+  ["Graphs", 526],
+  ["Strings", 706],
+];
+const logBookChapters = function (bookChapters) {
+  for (const [name, page] of bookChapters) {
+    const output = `${name.padEnd(20, "_")} ${page}`;
+    console.log(output);
+  }
+};
+
+logBookChapters(bookChapters);
