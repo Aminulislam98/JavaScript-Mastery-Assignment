@@ -682,3 +682,9 @@ console.log(uniqueKeywordsArr);
 // Assignment: Looping Objects: Object Keys, Values and Entries 12.6
 uniqueKeywords.clear();
 console.log(uniqueKeywords);
+
+// Assignment: Maps: Fundamentals 13.1
+const bookMap = new Map([
+  ["title", "Clean Code"],
+  ["author", "Robert C. Martin"],
+]);
