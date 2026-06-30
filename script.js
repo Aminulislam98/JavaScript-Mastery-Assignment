@@ -674,3 +674,7 @@ console.log(uniqueKeywords);
 // Assignment: Looping Objects: Object Keys, Values and Entries 12.4
 uniqueKeywords.delete("business");
 console.log(uniqueKeywords);
+
+// Assignment: Looping Objects: Object Keys, Values and Entries 12.5
+const uniqueKeywordsArr = [...uniqueKeywords];
+console.log(uniqueKeywordsArr);
