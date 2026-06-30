@@ -642,3 +642,6 @@ for (const [index, value] of Object.entries(
   entries[index].push(value);
 }
 console.log(entries);
+
+//  Assignment: Looping Objects: Object Keys, Values and Entries 11.3
+const entries2 = Object.entries(books[0].thirdParty.goodreads);
