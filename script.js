@@ -688,3 +688,8 @@ const bookMap = new Map([
   ["title", "Clean Code"],
   ["author", "Robert C. Martin"],
 ]);
+
+// Assignment: Maps: Fundamentals 13.2
+
+bookMap.set("pages", 464);
+console.log(bookMap);
