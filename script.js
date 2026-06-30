@@ -664,3 +664,11 @@ console.log(allKeywords);
 
 // Assignment: Looping Objects: Object Keys, Values and Entries 12.2
 const uniqueKeywords = new Set(allKeywords);
+
+// Assignment: Looping Objects: Object Keys, Values and Entries 12.3
+console.log(uniqueKeywords);
+uniqueKeywords.add("coding");
+uniqueKeywords.add("science");
+console.log(uniqueKeywords);
+
+// Assignment: Looping Objects: Object Keys, Values and Entries 12.4
