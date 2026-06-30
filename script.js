@@ -765,3 +765,5 @@ const normalizeAuthorName = function (authorName) {
 console.log(normalizeAuthorName("  JuliE sussMan (Contributor)"));
 
 // Assignment: Working with Strings - Part 2: 16.2
+const newBookTitle = books[1].title.replace("Programs", "Software");
+console.log(newBookTitle);
