@@ -633,4 +633,12 @@ console.log("__________________________AB_________________________");
 for (const b of Object.keys(books[0].thirdParty.goodreads)) {
   entries.push([b]);
 }
+// console.log(entries);
+
+// Assignment: Looping Objects: Object Keys, Values and Entries 11.2
+for (const [index, value] of Object.entries(
+  books[0].thirdParty.goodreads,
+).entries()) {
+  entries[index].push(value);
+}
 console.log(entries);
