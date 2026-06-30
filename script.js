@@ -781,3 +781,16 @@ const logBookTheme = function (title) {
   }
 };
 logBookTheme("computer is most important");
+
+// Assignment: Working with Strings - Part 3 17.1
+const bookCategories =
+  "science;computing;computer science;algorithms;business;operating systems;networking;electronics";
+
+const logBookCategories = function (bookCategories) {
+  const book = bookCategories.split(";");
+  for (const b of book) {
+    console.log(b.trim());
+  }
+};
+
+logBookCategories(bookCategories);
