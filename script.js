@@ -669,6 +669,8 @@ const uniqueKeywords = new Set(allKeywords);
 console.log(uniqueKeywords);
 uniqueKeywords.add("coding");
 uniqueKeywords.add("science");
-console.log(uniqueKeywords);
 
+console.log(uniqueKeywords);
 // Assignment: Looping Objects: Object Keys, Values and Entries 12.4
+uniqueKeywords.delete("business");
+console.log(uniqueKeywords);
