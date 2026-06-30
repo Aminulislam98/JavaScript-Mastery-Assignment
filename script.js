@@ -693,3 +693,7 @@ const bookMap = new Map([
 
 bookMap.set("pages", 464);
 console.log(bookMap);
+
+// Assignment: Maps: Fundamentals 13.3
+
+console.log(bookMap.get("title"), "by", bookMap.get("author"));
