@@ -717,3 +717,9 @@ for (const [key, value] of firstBookMap) {
     console.log(value);
   }
 }
+
+// Assignment: Working with Strings - Part 1: 15.1
+console.log(books[0].ISBN[6]);
+console.log(books[0].ISBN[4]);
+console.log(books[0].ISBN[9]);
+console.log(books[0].ISBN[8]);
