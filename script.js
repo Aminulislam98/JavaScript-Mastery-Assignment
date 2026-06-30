@@ -794,3 +794,18 @@ const logBookCategories = function (bookCategories) {
 };
 
 logBookCategories(bookCategories);
+
+// Assignment: Working with Strings - Part 3 17.2
+
+console.log("------------------ok-----------------");
+
+const getKeywordsAsString = function (books) {
+  const allKeywords = [];
+  for (const { keywords } of books) {
+    allKeywords.push(...keywords);
+  }
+  const uniqueKeywords = [...new Set(allKeywords)];
+  console.log(uniqueKeywords.join(";"));
+  return uniqueKeywords.join(";");
+};
+getKeywordsAsString(books);
