@@ -767,3 +767,17 @@ console.log(normalizeAuthorName("  JuliE sussMan (Contributor)"));
 // Assignment: Working with Strings - Part 2: 16.2
 const newBookTitle = books[1].title.replace("Programs", "Software");
 console.log(newBookTitle);
+
+// Assignment: Working with Strings - Part 2: 16.3
+const logBookTheme = function (title) {
+  if (title.startsWith("computer")) {
+    console.log("This book is about computers");
+  } else if (title.startsWith("computer") || title.startsWith(structures)) {
+    console.log("This book is about algorithms and data structures");
+  } else if (title.endsWith("system") || title.endsWith("systems")) {
+    console.log(
+      "This book is about some systems, but definitely not about operating systems",
+    );
+  }
+};
+logBookTheme("computer is most important");
