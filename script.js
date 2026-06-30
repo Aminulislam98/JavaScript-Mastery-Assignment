@@ -700,3 +700,9 @@ console.log(bookMap.get("title"), "by", bookMap.get("author"));
 
 // Assignment: Maps: Fundamentals 13.4
 console.log(bookMap.size);
+
+// Assignment: Maps: Fundamentals 13.5
+
+if (bookMap.has("author")) {
+  console.log("The author of the book is known");
+}
